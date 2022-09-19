@@ -2,3 +2,40 @@
     float:right;
     width:65px;
 }
+
+main {
+    border-style: revert;
+    background-color: darkolivegreen;
+    color: azure;
+    padding: 43px;
+    border-radius: 15px 50px;
+}
+
+html {
+    background-color: darkgrey;
+}
+
+header {
+    color: honeydew;
+}
+
+/* unvisited link */
+a:link {
+    color:azure;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:darkgreen;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    font-size:larger;
+    font-weight:bold;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellowgreen;
+  }
